@@ -10,7 +10,7 @@ this code try to integrate unsloth fast cross entropy kernal and multi gpu train
 
 ```
 
-torchrun --nnodes=1 --nproc_per_node=2 ddp1-v1.py
+torchrun --nnodes=1 --nproc_per_node=8 ddp1-v1.py
 
 
 ```
